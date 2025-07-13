@@ -1,0 +1,154 @@
+baseURL = "www.example.site"
+languageCode = "en-us"
+title = "Adhish Maheswaran"
+theme = "hugo-profile"
+
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS"]
+
+[pagination]
+  pagerSize = 3
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+  title = "Adhish Maheswaran"
+  description = "Cloud/DevOps Engineer"
+  favicon = "/fav.png"
+  useBootstrapCDN = false
+  mathjax = false
+  animate = true
+
+  [params.theme]
+    defaultTheme = "dark"
+
+  [params.navbar]
+    align = "ms-auto"
+    brandName = "Adhish Maheswaran"
+    disableSearch = false
+    [params.navbar.stickyNavBar]
+      enable = true
+      showOnScrollUp = true
+    enableSeparator = false
+
+    [params.navbar.menus]
+      disableAbout = false
+      disableExperience = false
+      disableEducation = false
+      disableProjects = true
+      disableAchievements = false
+      disableContact = false
+
+  [params.hero]
+    enable = true
+    intro = "Hi, my name is"
+    title = "Adhish Maheswaran"
+    subtitle = "Cloud/DevOps Engineer"
+    content = "Specialized in automation, cloud infrastructure, and DevOps tooling with expertise in AWS, Terraform, and Ansible."
+    image = "/images/Profile.jpg"
+    [params.hero.bottomImage]
+      enable = true
+    [params.hero.button]
+      enable = true
+      name = "Resume"
+      url = "/Adhish_Maheswaran_Resume.pdf"
+      download = true
+      newPage = false
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+      icon = "fab fa-github"
+      url = "https://github.com/adhish2001"
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+      icon = "fab fa-linkedin"
+      url = "https://linkedin.com/in/adhish-maheswaran/"
+
+  [params.about]
+    enable = true
+    title = "About Me"
+    image = "/images/profile2.jpg"
+    content = "Cloud/DevOps Engineer with 2+ years of experience in infrastructure automation and security tooling. Proficient in Terraform, Ansible, and Kubernetes. Experienced in AWS and VMware vCenter."
+    [params.about.skills]
+      enable = true
+      title = "Technologies I work with:"
+      items = ["Terraform", "Ansible", "Kubernetes", "AWS", "Python", "GitHub", "Jenkins", "TypeScript", "React.js", "Docker"]
+
+  [params.experience]
+    enable = true
+    [[params.experience.items]]
+      job = "DevOps Engineer"
+      company = "Shared Services Canada"
+      companyUrl = "https://www.canada.ca"
+      date = "Aug 2024 – Present"
+      content = "- Automated VM and app deployments with Ansible and vCenter.\n- Built service portal using Backstage.\n- Integrated GitLab and AD provisioning."
+
+    [[params.experience.items]]
+      job = "Software Developer – Cloud Infrastructure"
+      company = "Solace 2023"
+      companyUrl = "https://solace.com"
+      date = "May 2023 – Aug 2023"
+      content = "- Integrated tfsec/checkov in CI/CD.\n- Enforced OPA policies in Terraform PRs.\n- Remediated 10+ vulnerabilities."
+
+    [[params.experience.items]]
+      job = "Software Developer – Cloud Infrastructure"
+      company = "Solace 2022"
+      date = "May 2022 – Aug 2022"
+      content = "- Migrated infra from CloudFormation to Terraform.\n- Managed Vault deployments with Kubernetes."
+
+    [[params.experience.items]]
+      job = "Junior Software Developer"
+      company = "Shared Services Canada"
+      date = "Sep 2021 – Dec 2021"
+      content = "Automated server provisioning using Ansible and vRealize."
+
+    [[params.experience.items]]
+      job = "Junior Software Developer"
+      company = "CFIA"
+      date = "Jan 2021 – Apr 2021"
+      content = "Maintained Azure Pipelines. Automated CI testing."
+
+  [params.education]
+    enable = true
+    [[params.education.items]]
+      title = "Bachelor of Applied Science – Software Engineering"
+      date = "Sep 2019 – May 2024"
+      [params.education.items.school]
+        name = "University of Ottawa"
+        url = "https://engineering.uottawa.ca"
+      content = "Engineering Management & Entrepreneurship Option."
+
+  [params.achievements]
+    enable = true
+    title = "Certificates"
+    [[params.achievements.items]]
+      title = "HashiCorp Certified: Terraform Associate"
+      content = "Certified in Terraform fundamentals and workflows."
+      image = "/images/terraform.png"
+
+    [[params.achievements.items]]
+      title = "AWS Certified Cloud Practitioner"
+      content = "Demonstrated foundational knowledge of AWS Cloud."
+      image = "/images/aws.png"
+
+    [[params.achievements.items]]
+      title = "Govt of Canada – Reliability Screening"
+      content = "Completed basic reliability clearance."
+
+  [params.contact]
+    enable = true
+    content = "Always happy to connect — drop me a message!"
+    btnName = "Email Me"
+    btnLink = "mailto:adhish0001@gmail.com"
+
+  [params.footer]
+    [params.footer.recentPosts]
+      path = "blogs"
+      count = 3
+      title = "Recent Posts"
+      enable = false
+    [params.footer.socialNetworks]
+      github = "https://github.com/adhish2001"
+      linkedin = "https://linkedin.com/in/adhish-maheswaran/"
