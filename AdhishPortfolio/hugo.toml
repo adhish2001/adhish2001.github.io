@@ -1,9 +1,10 @@
-baseURL = "www.example.site"
+baseURL = "https://adhish2001.github.io/"
 languageCode = "en-us"
 title = "Adhish Maheswaran"
 theme = "hugo-profile"
-
 enableRobotsTXT = true
+canonifyURLs = true
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -152,3 +153,6 @@ enableRobotsTXT = true
     [params.footer.socialNetworks]
       github = "https://github.com/adhish2001"
       linkedin = "https://linkedin.com/in/adhish-maheswaran/"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
