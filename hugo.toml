@@ -153,6 +153,7 @@ canonifyURLs = true
     [params.footer.socialNetworks]
       github = "https://github.com/adhish2001"
       linkedin = "https://linkedin.com/in/adhish-maheswaran/"
+
 [caches]
   [caches.images]
-    dir = ':cacheDir/images'
+    dir = ":cacheDir/images"
