@@ -1,23 +1,17 @@
-# DevOps Engineer
+# DevOps/Platform Engineer
 - company: Shared Services Canada
-  position: DevOps Engineer
+  position: DevOps/Platform Engineer – Platform and Automation Services
   duration: Aug 2024 &mdash; Present
-  summary: <ul class="resume-item-list"><li>Automated VM and app deployments with Ansible and vCenter</li><li>Built service portal using Backstage</li><li>Integrated GitLab and AD provisioning</li></ul>
+  summary: <ul class="resume-item-list"><li>Authored Ansible playbooks to provision and configure approximately 50 Windows Server virtual machines, automating Active Directory domain joins, IPAM-assigned IP allocation, and system-level configuration to meet standardized build requirements within vCenter</li><li>Developed semi-automated Ansible workflows to manage GitLab version upgrades and rollbacks across environments, improving operational consistency and reducing manual intervention</li><li>Implemented Configuration as Code using Ansible for Active Directory and Ansible Automation Platform (AAP), enabling version-controlled configurations, automated user onboarding, and portability across AAP upgrades and mirrored environments</li><li>Built scheduled monitoring playbooks targeting applications and virtual machines to proactively detect disk, memory, and resource constraints, reducing risk of service disruption</li></ul>
 
 # Software Developer – Cloud Infrastructure (2023)
 - company: Solace
   position: Software Developer – Cloud Infrastructure
   duration: May 2023 &mdash; Aug 2023
-  summary: <ul class="resume-item-list"><li>Integrated tfsec/checkov in CI/CD</li><li>Enforced OPA policies in Terraform PRs</li><li>Remediated 10+ vulnerabilities</li></ul>
+  summary: <ul class="resume-item-list"><li>Integrated Infrastructure as Code security scanning using tfsec and Checkov across Terraform modules through GitHub Actions, catching misconfigurations before they reached production</li><li>Implemented Open Policy Agent (OPA) policies within Atlantis to enforce Terraform governance during pull request automation, ensuring compliance at scale</li><li>Investigated and remediated security findings identified by static analysis tools, improving infrastructure security posture and compliance across cloud environments</li></ul>
 
 # Software Developer – Cloud Infrastructure (2022)
 - company: Solace
   position: Software Developer – Cloud Infrastructure
   duration: May 2022 &mdash; Aug 2022
-  summary: <ul class="resume-item-list"><li>Migrated infrastructure from CloudFormation to Terraform</li><li>Managed Vault deployments with Kubernetes</li></ul>
-
-# Junior Software Developer
-- company: Shared Services Canada
-  position: Junior Software Developer
-  duration: Sep 2021 &mdash; Dec 2021
-  summary: Automated server provisioning using Ansible and vRealize.
+  summary: <ul class="resume-item-list"><li>Authored reusable Terraform modules to replace AWS CloudFormation templates, reducing configuration duplication and improving maintainability as part of a structured IaC migration</li><li>Implemented blue-green deployments of HashiCorp Vault on Kubernetes to support zero-downtime upgrades in production</li><li>Developed Python scripts using Vault APIs to validate secret integrity and automate reliability checks during infrastructure testing</li></ul>
