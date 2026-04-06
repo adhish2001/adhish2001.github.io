@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Adhish Maheswaran"
-resume_title:                   "Dev-Ops/Platform Engineer"
+resume_title:                   "DevOps/Platform Engineer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "adhish0001@gmail.com"
@@ -23,7 +23,7 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Cloud/DevOps Engineer with 2+ years of experience in infrastructure automation and security tooling. Proficient in Terraform, Ansible, and Kubernetes. Experienced in AWS and VMware vCenter.</p>"
+resume_header_intro: "<p>Platform and DevOps Engineer with 2+ years of experience building and operating reliable infrastructure in enterprise environments. Focused on automation, Infrastructure as Code, and systems reliability, with hands-on experience across Ansible Automation Platform, Terraform, Kubernetes, AWS, and VMware-based virtualization. Canadian Citizen.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
