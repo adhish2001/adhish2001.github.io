@@ -1,11 +1,11 @@
+# AWS Certified: Solutions Architect – Associate
+- award: AWS Certified Solutions Architect – Associate
+  organization: Amazon Web Services
+  year: 2026 - 2029
+  summary: Validated expertise in designing secure, resilient, high-performing, and cost-optimized architectures on AWS.
+
 # HashiCorp Certified: Terraform Associate
 - award: HashiCorp Certified Terraform Associate
   organization: HashiCorp
-  year:
+  year: 2024 - 2026
   summary: Certified in Terraform fundamentals and workflows.
-
-# AWS Certified Cloud Practitioner
-- award: AWS Certified Cloud Practitioner
-  organization: Amazon Web Services
-  year:
-  summary: Demonstrated foundational knowledge of AWS Cloud.
